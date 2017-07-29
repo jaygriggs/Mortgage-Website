@@ -1,0 +1,5 @@
+name: Content Email Notice
+description: Creates an email notice when content is created
+type: module
+configure: content_email_notice.settings
+core: '8.x'

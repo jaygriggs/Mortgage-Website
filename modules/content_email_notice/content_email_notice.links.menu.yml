@@ -1,0 +1,5 @@
+content_email_notice.settings:
+  title: 'Content Email Notice settings'
+  description: 'Configuration for content email notice'
+  route_name: content_email_notice.settings
+  parent: system.admin_config_content

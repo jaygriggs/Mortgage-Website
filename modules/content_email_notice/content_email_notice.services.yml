@@ -1,0 +1,7 @@
+services:
+  content_email_notice.subscriber:
+    class: Drupal\content_email_notice\EmailConfig
+    arguments: ['@config.factory', '@plugin.manager.mail']
+  content_email_notice.mail:
+    class: Drupal\content_email_notice\EmailNotice
+    arguments: ['@token']

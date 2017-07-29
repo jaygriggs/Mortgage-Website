@@ -1,0 +1,6 @@
+content_email_notice.settings:
+  path: '/admin/config/content/content_email_notification'
+  defaults:
+    _form: Drupal\content_email_notice\Settings\ContentEmailForm
+  requirements:
+    _permission: 'administer site configuration'
